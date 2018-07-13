@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <style>
+
+  .active{
+     background-color:rgba(0,0,0,0.84);
+     color:#fbd00a; 
+   } 
+   .noactive{
+     background-color: #fbd00a;
+     color:rgba(0,0,0,0.84); 
+   }
+  
+
+  a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right:15px;
+    padding-left:15px;
+    border-radius: 2px;
+    transition: 300ms all ease;
+   
+    
+  }
+  a:hover{
+    background-color:rgba(0,0,0,0.84);
+    color:#fbd00a; 
+    transition: 300ms all ease;
+  }
+  nav{
+    margin-top:20px;
+    margin-left:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  body{
+    background-color:#fbd00a; 
+    
+
+  }
+  
+     
+  
+  </style>
+</head>
+<body>
+    <nav>
+        <a class="active" href="/html/">INICIO</a> 
+        <a class="noactive" href="/css/">ACERCA</a> 
+        <a class="noactive" href="/js/">PROYECTOS</a> 
+        <a class="noactive" href="/jquery/">CONTACTO</a>
+    </nav>   
+</body>
+</html>
